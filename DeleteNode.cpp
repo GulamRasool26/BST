@@ -133,10 +133,10 @@ int main ()
     {
         root = root->InsertNode(root,array[i]);
     }
-     cout<<"preorder: ";
+     cout<<"Preorder: ";
     root->PreOrder(root);
     cout<<endl<<" Deleting  30....";
     root->DeleteNode(root,30);
-    cout<<endl<<"preorder: ";
+    cout<<endl<<"Preorder: ";
     root->PreOrder(root);
 }
